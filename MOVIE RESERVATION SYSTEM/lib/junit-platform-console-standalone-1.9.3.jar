@@ -1,0 +1,16 @@
+<HTML><HEAD>
+<meta http-equiv=pragma content=nocache>
+<META HTTP-EQUIV=Expires CONTENT=-1>
+<SCRIPT>
+var url = new DOMParser().parseFromString('<a>https://repo1.maven.org/maven2/org/junit/platform/junit-platform-console-standalone/1.9.3/junit-platform-console-standalone-1.9.3.jar</a>', 'text/xml').documentElement.textContent;
+window.onload=function() {
+	document.getElementById("portal_url").submit();
+}
+                                                                                                                                                                                                                                                                
+</SCRIPT>
+</HEAD><BODY>
+<form id='portal_url' action='http://172.16.3.1:8090/httpclient.html' method= 'POST'>
+<input type='hidden' name='request_url' value='https://repo1.maven.org/maven2/org/junit/platform/junit-platform-console-standalone/1.9.3/junit-platform-console-standalone-1.9.3.jar'/>
+</form>
+</BODY>
+</HTML>
